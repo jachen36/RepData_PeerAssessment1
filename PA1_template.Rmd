@@ -43,6 +43,7 @@ hist(newTotal$steps)
 meanSteps <- mean(newTotal$steps, na.rm=TRUE)
 medianSteps <- median(newTotal$steps, na.rm=TRUE)
 ```
+The missing data were replaced with the average steps for all days and interval. 
 Averaged across all the days in the dataset, the maximum number of steps is `r stepsMax` and is on interval `r intervalMax`.
 
 ## Are there differences in activity patterns between weekdays and weekends?
